@@ -1,0 +1,9 @@
+CREATE TABLE DEPARTMENT AS select * from csvread('<PATH>/DEPARTMENT.txt', null, 'charset=UTF-8 fieldSeparator=|');
+
+CREATE TABLE EMPLOYEE AS select * from csvread('<PATH>/EMPLOYEE.txt', null, 'charset=UTF-8 fieldSeparator=|');
+
+CREATE TABLE SKILLS AS select * from csvread('<PATH>/SKILLS.txt', null, 'charset=UTF-8 fieldSeparator=|');
+
+CREATE TABLE EMPLOYEE_SKILL AS select * from csvread('<PATH>/EMPLOYEESKILL.txt', null, 'charset=UTF-8 fieldSeparator=|');
+
+CREATE TABLE EMPLOYEE_SKILL_SUMMARY AS select * from csvread('<PATH>/EMPLOYEESKILLSUMMARY.txt', null, 'charset=UTF-8 fieldSeparator=|');

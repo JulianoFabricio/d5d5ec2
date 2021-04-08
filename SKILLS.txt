@@ -1,0 +1,7 @@
+SKILL_ID|SKILL_NAME
+1|Desenhar
+2|Codificar
+3|Codificar Rápido
+4|Codificar Certo
+5|Testar
+6|Fazer Reunião

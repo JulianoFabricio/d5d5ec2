@@ -1,0 +1,2 @@
+FIRST_NAME|LAST_NAME|EMAIL|SKILL|SKILL_LEVEL
+First|Last|first.last@email.com|Test|Jr.
